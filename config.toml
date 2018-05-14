@@ -1,7 +1,7 @@
 baseurl = "http://localhost:1313/"
 title = "Whiteplain"
-themesDir = "themes/"
-theme = "whiteplain"
+#themesDir = "themes/"
+theme = "reproach"
 languageCode = "ja"
 # Disqus shortname
 #disqusShortname = ""
