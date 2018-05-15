@@ -15,6 +15,6 @@ I have also been trying to get more people to own their content and online ident
 
 At [Abraham's Indieblog](https://abraham.onl/ "Abraham's Indieblog") I plan to document everything that is related to the IndieWeb and various content management systems, and hopefully, over time it will push more people towards owning their online identities at least from my circle of family, friends, colleagues, and acquaintances.
 
-And yeah that's me...
+And yeah that's me.
 
 ![Rajiv Abraham](/images/RajivAbrahamNela.jpg)
