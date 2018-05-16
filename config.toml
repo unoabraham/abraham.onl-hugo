@@ -1,102 +1,33 @@
-baseurl = "https://abraham.onl/"
-title = "Abraham's Indieblog"
-#themesDir = "/whiteplain/"
-theme = "whiteplain"
-languageCode = "ja"
-# Disqus shortname
-#disqusShortname = ""
-# google analytics tracking id
-googleAnalytics = "UA-112438396-18"
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsOptions = "linenos=table"
-# Copyright notice. This is displayer in the footer.
-copyright = "&copy; Copyright 2018 Rajiv Abraham"
+baseurl                 = "https://abraham.onl/"               # Your domain name. Must end with "/"
+languageCode            = "en-us"
+title                   = "Abraham's Indieblog"
+theme                   = "hugo-theme-sam"
+pygmentsStyle           = "manni"                     # https://help.farbox.com/pygments.html
+pygmentsCodefences      = true
+# googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
 
 [params]
-  # Date format
-  #dateFormat = "January 2, 2006"
+    dateform            = "Mon Jan 02, 2006"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+    favicon             = "/sam.ico"
+    homepage            = "main"                        # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = true                          # Allow links to the full size images
+    footerText          = "Call me Sam, a theme for Hugo."
 
-# This is displayer in About page.
-[params.author]
-  name = "Rajiv Abraham"
+# Metadata
+    description         = "A new Hugo site."            # Max 160 characters show in search results
+    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
 
-  # Gravatar or Abatar image
-  gravatar = "a@brah.am"
-  avatar = "/images/Abraham.jpg"
+[[params.mainMenu]]
+    link = "/posts"
+    text = "writing"
 
-  twitter = "unoabraham"
-  facebook = "939abraham"
-  #googleplus = "Googleplus username"
-  instagram = "unoabraham"
-  tumblr = "unoabraham"
-  flickr = "unoabraham"
-  #reddit = "Reddit username"
-  linkedin = "unoabraham"
-  #slideshare = "Slideshare username"
-  github = "unoabraham"
-  #gitlab = "Gitlab username"
-  #bitbucket = "Bitbucket username"
-  #stackoverflow = "Stackoverflow username"
-  #jsfiddle = "Jsfiddle username"
-  #codepen = "Codepen username"
-  #deviantart = "Deviantart username"
-  #behance = "Behance username"
-  #dribbble = "Dribbble username"
-  #wordpress = "Wordpress username"
-  #medium = "Medium username"
-  foursquare = "unoabraham"
-  #xing = "Xing username"
-  #quora = "Quora username"
-  #youtube = "Youtube username"
-  #vimeo = "Vimeo username"
-  #whatsapp = "Rajiv Abraham"
-  #skype = "Skype username"
-  #snapchat = "Snapchat username"
-  #pinterest = "Pinterest username"
-  #telegram = "Telegram username"
-  #vine = "Vine username"
-  email = "a@brah.am"
+[[params.mainMenu]]
+    link = "/gallery"
+    text = "gallery"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
-
-[[menu.main]]
-  name = "Home"
-  weight = 1
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  identifier = "about"
-  url = "/about/"
-[[menu.main]]
-  name = "IndieWeb"
-  weight = 3
-  identifier = "indieweb"
-  url = "/indieweb/"  
-[[menu.main]]
-  name = "Categories"
-  weight = 4
-  identifier = "categories"
-  url = "/categories/"  
-[[menu.main]]
-  name = "Tags"
-  weight = 5
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Archives"
-  weight = 6
-  identifier = "archives"
-  url = "/archives/"
-
-
-[[menu.footer]]
-  name = "About"
-  weight = 1
-  identifier = "about"
-  url = "/about/"
+[[params.mainMenu]]
+    link = "/about"
+    text = "who is sam?" 
