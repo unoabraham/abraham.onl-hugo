@@ -1,6 +1,5 @@
 baseurl = "https://abraham.onl/"
 title = "Abraham's Indieblog"
-themesDir = "/themes"
 theme = "whiteplain"
 languageCode = "ja"
 # Disqus shortname
