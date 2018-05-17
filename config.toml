@@ -6,7 +6,7 @@ theme = "hugo-theme-jane"
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 
 hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 10                                              # 首页每页显示的文章数
+paginate = 5                                              # 首页每页显示的文章数
 #disqusShortname = "XXX"      # disqus_shortname
 googleAnalytics = "UA-112438396-18"      # UA-112438396-18
 copyright = "Rajiv Abraham"            # default: author.name ↓        # 默认为下面配置的author.name ↓
@@ -68,7 +68,7 @@ post = "/:yearday/:title/"
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 
   since = "2018"            # Site creation time          # 站点建立时间
-  homeFullContent = true
+  homeFullContent = false
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
