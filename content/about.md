@@ -15,3 +15,7 @@ The one thing I have going for me as I’m a geek, and I love to tinker. My appr
 I have also been trying to get more people to own their content and online identities by creating and posting content under their own domain names instead of social media like Facebook and Twitter.
 
 At [Abraham's Indieblog](https://abraham.onl/ "Abraham's Indieblog") I plan to document everything that is related to the IndieWeb and various content management systems, and hopefully, over time it will push more people towards owning their online identities at least from my circle of family, friends, colleagues, and acquaintances.
+
+That's Me.
+
+![Rajiv Abraham Nela](/images/Abraham.jpg)
