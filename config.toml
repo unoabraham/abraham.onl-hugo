@@ -16,8 +16,7 @@ defaultContentLanguage = "en"
   languageCode = "en"
 
 [permalinks]
-post = "/:yearday/:title/"
-
+  post = "/:yearday/:title/"
 
 [author]                  # essential                     # 必需
   name = "Rajiv Abraham"
