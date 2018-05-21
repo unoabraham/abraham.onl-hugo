@@ -5,9 +5,9 @@ lastmod: {{ .Date }}
 draft: true
 keywords: []
 description: ""
-tags: []
-categories: []
-author: ""
+categories: ["XXX", "XXX"]
+tags: ["XXX", "XXX"]
+author: "Rajiv Abraham"
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
