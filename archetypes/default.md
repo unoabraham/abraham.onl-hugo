@@ -20,4 +20,3 @@ reward: false
 mathjax: false
 ---
 
-<!--more-->
